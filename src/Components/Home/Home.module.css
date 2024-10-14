@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px; 
+    margin: auto;
+    align-items: center;
+}
+
+.buynow{
+    background: #0c0c0c;
+    
+    
+    }
+    .buynow:hover{
+      background: #0c0c0c;
+    
+    
+    }
+
+
+.backG1 {
+    /* position: relative; */
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+
+}
+.container1 {  
+    position: relative;  
+}  
+
+.slider{
+
+    width: 90%;
+}
+
+
+.first {
+    position: relative;
+}
+
+.threephoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px; 
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn1{
+    border: 3px solid #B88E2F; /* Merged properties */
+    width: 245px;
+    height: 80px;
+    display: flex; /* Added to center contents */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.second{
+    display: flex; /* Added to properly center content */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.textContent{  
+    position: relative; 
+    z-index: 2; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+}
+
+ .row1, .row2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 15px; 
+margin: 15px;
+
+ }
+ .overlay {  
+    position: absolute;  
+    bottom: 70px; 
+    right:  35px; 
+    background-color: #FFF3E3;
+width: 643px;
+height: 443px;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding-right: 10px;
+}  
+.overlay h1 {  
+    font-size: 52;  
+    color: #d4af37; 
+    font-weight: 700;
+    margin-right: 50px;
+    padding-left: 50px;
+}  
+.overlay h2 {  
+    font-size: 24px;  
+    background-color: #d4af37; 
+
+    margin: 0;  
+}  
+.overlay p {  
+    margin: 10px ;  
+    margin-top: 30px;
+    padding-left: 50px;
+    font-weight: 200px;
+}  
+.overlay button {  
+    background-color: #d4af37; 
+    border: none;  
+    color: white;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    margin-left: 50px;
+      margin-top: 30px;
+}

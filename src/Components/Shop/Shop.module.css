@@ -1,0 +1,77 @@
+.Shop {}
+.container {  
+    position: relative;  
+    width: 100%;  
+}  
+.image {  
+    width: 100%;  
+    height: auto;  
+}  
+.overlay {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    color: rgb(11, 11, 11); 
+    font-size: 55px; 
+    text-align: center;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+.imgfluid{
+
+width: 200px;
+height: 200px;
+
+}
+
+.htitle{
+    font-size: 20px;  
+
+
+
+}
+.price{
+
+    font-size: 20px;  
+
+
+}
+
+.ourprod{
+display: flex;   
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.link{
+
+text-decoration: none;
+color: black;
+font-size: medium;
+}
+
+.buttons{
+text-align: center;
+ width: 500px;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+border-radius: 7px;
+justify-content: center;
+background-color: bisque;
+gap: 5px;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.button{
+    border-radius: 7px;
+    width: 90px;
+
+
+}
+.button:hover{
+    background-color: #dac1a2;
+color: black;
+}

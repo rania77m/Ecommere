@@ -1,0 +1,44 @@
+.ourprod{
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    .imgfluid{
+
+        width: 200px;
+        height: 200px;
+        
+        }
+
+
+
+.productCard {
+  transition: box-shadow 0.3s ease; 
+  background: gray;
+  }
+  
+  .productCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+    opacity: 0.5;  
+
+
+  }
+  
+  .text-main {
+    color: #4fa94d;
+  }
+  
+  .rating-color {
+    color: #f1c40f;
+  }
+  
+  /* Add more styles as needed */
+   
+  .cardcover:hover{
+
+/* background: gray; */
+
+  }

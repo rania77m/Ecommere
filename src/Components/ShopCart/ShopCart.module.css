@@ -1,0 +1,59 @@
+.container {  
+    position: relative;  
+    width: 100%;  
+}  
+.image {  
+    width: 100%;  
+    height: auto;  
+}  
+.overlay {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    color: rgb(11, 11, 11); 
+    font-size: 55px; 
+    text-align: center;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.shopping{
+float: right;
+
+
+}
+
+.link{
+
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    }
+
+    .checkout a{
+        color:rgb(7, 35, 42);
+text-decoration: none;
+
+    }
+    .cart a{
+
+        color:rgb(7, 35, 42);
+        text-decoration: none;
+          
+    }
+
+    .cart:hover{ 
+        background: black;
+
+    }
+
+    .cart a:hover{
+        color:rgb(236, 241, 242);
+
+
+    }
+     .checkout a:hover{
+        color:rgb(236, 241, 242);
+
+
+    }

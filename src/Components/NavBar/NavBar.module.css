@@ -1,0 +1,27 @@
+.NavBar {}
+
+
+.person {
+margin-left: 7px;
+
+
+
+}
+.search{
+    margin-left: 7px;
+
+
+}
+.navItem{
+    flex-direction: row;
+    justify-content: space-between;
+gap: 77px;
+width: 400px;
+display: flex;
+}
+ .Item {
+width: 70px;
+/* height: 90px; */
+color: blueviolet;
+
+}
